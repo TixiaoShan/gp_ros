@@ -23,7 +23,7 @@ int main(int argc, char **argv) {
     int num_train = 10, train_dim = 2;
     int num_test = 10;
 
-    GPRegressor g(100, 3, 0.01);
+    GPRegressor g(100, 3, 0.01);  // g(training mean, elf,  noise level), note that noise level can be set to zero.
 
 
  	MatrixXf gp_train_x(num_train, train_dim), gp_train_label(num_train, 1), gp_test_x(num_test, train_dim);
