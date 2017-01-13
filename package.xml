@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>gp_ros</name>
+  <version>0.0.1</version>
+  <description>A simple example to have GP Regression in the loop</description>
+
+  <maintainer email="sbai1@stevens.edu">Bona</maintainer>
+  <author email="sbai1@stevens.edu">Bona</author>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/gp_ros</url>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+</package>
